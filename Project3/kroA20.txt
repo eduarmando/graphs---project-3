@@ -1,0 +1,19 @@
+NAME: kroA100
+TYPE: TSP
+COMMENT: 20-city problem A (Krolak/Felts/Nelson)
+DIMENSION: 20
+EDGE_WEIGHT_TYPE : EUC_2D
+NODE_COORD_SECTION
+1 22.11 -103.26
+2 20.54 -103.7
+3 20.54 -104.04
+4 20.65 -105.22
+                  'Autlan de Navarro': [19.77,-104.36], 'Tecolotlan': [20.20,-104.04],
+                  'Tapalpa': [19.94,-103.76], 'Guadalajara': [20.65,-103.35],
+                  'Ciudad Guzman': [19.70,-103.46], 'Ajijic': [20.29,-103.26],
+                  'Zapotlanejo': [20.61,-103.06], 'Ocotlan': [20.34,-102.76],
+                  'Tepatitlan': [20.80,-102.76], 'La Barca': [20.29,-102.54],
+                  'Degollado': [20.44,-102.13], 'Arandas': [20.70,-102.34],
+                  'Jalostotitlan': [21.16,-102.46], 'San Juan de los Lagos': [21.24,-102.33],
+                  'Lagos de Moreno': [21.26,-101.92], 'Encarnacion de Diaz': [21.52,-102.24]
+EOF
