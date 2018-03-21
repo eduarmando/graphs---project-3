@@ -1,0 +1,22 @@
+language: python
+python:
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.6-dev"  # 3.6 development branch
+  - "3.7-dev"  # 3.7 development branch
+# command to install dependencies
+install:
+  - pip install flake8 pycodestyle
+# command to run tests
+script:
+  - flake8 --ignore=E501 --show-source && pycodestyle --ignore=E501 --show-source --show-pep8
+notifications:
+  email:
+    recipients:
+      - miguel.8a.hdez@gmail.com
+      - feryo1@gmail.com
+      - eduardo_pitt@hotmail.com
+    on_success: never # default: change
+    on_failure: always # default: always

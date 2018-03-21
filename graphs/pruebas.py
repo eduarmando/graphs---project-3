@@ -1,8 +1,34 @@
+#!/usr/bin/env python
+
+__header__ = """
+                              -`
+              ...            .o+`
+           .+++s+   .h`.    `ooo/
+          `+++%++  .h+++   `+oooo:
+          +++o+++ .hhs++. `+oooooo:
+          +s%%so%.hohhoo'  'oooooo+:
+          `+ooohs+h+sh++`/:  ++oooo+:
+           hh+o+hoso+h+`/++++.+++++++:
+            `+h+++h.+ `/++++++++++++++:
+                     `/+++ooooooooooooo/`
+                    ./ooosssso++osssssso+`
+                   .oossssso-````/osssss::`
+                  -osssssso.      :ssss``to.
+                 :osssssss/  Mike  osssl   +
+                /ossssssss/   8a   +sssslb
+              `/ossssso+/:-        -:/+ossss'.-
+             `+sso+:-`                 `.-/+oso:
+            `++:.                           `-/+/
+            .`                                 `/
+"""
+
 import re
 import SimulatedAnnealing as sa
 import random
+
 datos = []
 ciudades = {}
+
 with open('kroA200.txt') as fp:
     for line in fp:
         if re.match('^[1-9]+', line) is not None:

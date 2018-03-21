@@ -1,0 +1,42 @@
+{
+    ".projections.json": {
+        "type": "Projections"
+    },
+    "LICENSE": {
+        "type": "License"
+    },
+    "README.md": {
+        "type": "Readme"
+    },
+    "requirements.txt": {
+        "type": "Requirements"
+    },
+    ".travis.yml": {
+        "type": "Travis"
+    },
+    "main.py": {
+        "type": "Main"
+    },
+    "test/*.py": {
+        "type": "Test"
+    },
+    "setup.cfg": {
+        "type": "Config"
+    },
+    "logger/*.py": {
+        "type": "Logger"
+    },
+    "logger/messages.py": {
+        "type": "Logger"
+    },
+    "graphs/*.py": {
+        "type": "Graphs"
+    },
+    "graphs/graphs.py": {
+        "type": "Graphs"
+    },
+    "samples/*.txt": {
+        "type": "Samples"
+    }
+}
+
